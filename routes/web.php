@@ -3,6 +3,10 @@
 use App\Http\Controllers\JuiceController;
 use Illuminate\Support\Facades\Route;
 
+
+Route::get('/phpinfo', function(){
+    return view('infophp');
+});
 Route::get('/juices',[JuiceController::class,'index']);
 Route::post('/juices',[JuiceController::class,'store']);
 Route::get('/fetch-juices',[JuiceController::class,'fetchjuices']);

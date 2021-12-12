@@ -164,7 +164,7 @@
                 <h5 class="modal-title" id="exampleModalLabel">Delete Juice</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-                {{-- @isATC
+                @isATC
                     <div id="warning" class="modal-body">
                         <h4>U sure 'bout that bro ??</h4>
                         <input type="hidden" id="deleteing_id">
@@ -177,7 +177,7 @@
                     <div id="warning" class="modal-body">
                         <h4>Bạn làm j có quyền ? ơ </h4>
                     </div>
-                @endisATC --}}
+                @endisATC
         </div>
     </div>
 </div>

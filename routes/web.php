@@ -31,3 +31,5 @@ Route::get('/demo',function () {
 Route::get('/info',function () {
     return view('info.info');
 });
+
+Route::get('/guest',[JuiceController::class, 'fetchguest']);

@@ -12,6 +12,10 @@ class JuiceController extends Controller
     public function index(){
         return view('juices.index');
     }
+    public function fetchguest(){
+        $juices = Juice :: all();
+        return view('guest.guest',compact('juices'));
+    }
     public function fetchjuices(){
         $juices = Juice :: all();
         return response()->json([
